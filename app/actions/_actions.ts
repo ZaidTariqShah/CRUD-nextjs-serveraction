@@ -8,7 +8,7 @@ export const getUsers = async (prevState: any, formData: FormData) => {
 };
 
 export const insertUser = async (prevState: any, formData: FormData) => {
-  console.log("Prev State: ", prevState); // <-- yeh chalega
+  console.log("Prev State: ", prevState);
 
   try {
     const name = formData.get("name") as string;
